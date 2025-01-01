@@ -1,0 +1,30 @@
+.app {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 2px;
+    background-color: #000;
+    padding: 10px;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-cell {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: 1px solid #333;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
